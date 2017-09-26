@@ -3,11 +3,6 @@
     <head>
         <title>Login</title>
         <?php echo $this->headScript()->appendFile('/js/jquery3.2.1.js'); ?>
-        <script type="text/javascript">
-            $('.message a').click(function(){
-                $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-            });
-        </script>
         <?php echo $this->headLink()->appendStylesheet('/css/login.css') ?>
     </head>
     <body>
